@@ -1,0 +1,75 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+a .git file gets created as a directory for the metadata that runs the commits.
+it also list all existing files in the directory, and it shows all files as
+untracked files.
+
+it's necessary to organize the base for the repository
+
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+The staging area serves as a sketching area to put files together to then make
+the commit( in my case however i was not able to make the commit) The working
+directory is the unique address while the repository holds all of the files.
+
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+I've learnt a lot in this exercise because  along the way i had many hurdles to
+overcome. The first obstacle was setting up subl as my core editor for git.
+However, after doing some research i discovered that one can also do commits in
+most text editors directly from the editor. It is absolutely ground breaking for
+me to be able to perform this task from inside the editor because even at this
+early learning stage I presume most of the coding gets done in them.
+I'm also getting a big picture of GIT. I feel more confident now making changes
+and navigating in uncomfortable terrain. I feel less intimidate when in need
+to venture out in the net for answers.
+
+
+
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+Branches would help a lot in the exploration of new ideas while maintaining
+most of the previous work intact. I'd can also help making alternative
+iterations for different purposes expanding the horizons for projects.
+
+Useful commands:
+Viewing the commit history
+The full command Caroline types to see the visual representation of the commit
+ history is git log --graph --oneline master coins.
+
+Checking out the coins branch
+Note that you'll need to check out the coins branch using
+the command git checkout coins before you can view the coins
+branch using git log.
+
+git checkout master
+Previous HEAD position was 25ede83 a couple missing ends with the ipad version
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+fernandomarroquin (master) asteroids $ git branch
+* master
+fernandomarroquin (master) asteroids $ git branch easy-mode
+fernandomarroquin (master) asteroids $ git branch
+  easy-mode
+* master
+fernandomarroquin (master) asteroids $ git checkout easy-mode
+Switched to branch 'easy-mode'
+fernandomarroquin (easy-mode) asteroids $ git branch
+* easy-mode
+  master
+
+
+
+How do the diagrams help you visualize the branch structure?
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+What are the pros and cons of Git's automatic merging vs. always doing merges
+manually?
