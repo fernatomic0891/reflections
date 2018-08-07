@@ -1,0 +1,62 @@
+When would you want to use a remote repository rather than keeping all your work
+local?
+
+It depends on whether the project requires collaboration with teammates for
+which it would be more efficient i believe to work remote. Or if you are working
+offline going local might be a better option.
+
+Why might you want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository?
+
+pulling changes manually it's a good mental exercise to keep track of changes
+made to repo rather than Github making them automatically for you. Auto mode
+is definitely more convenient yet not as mentally engaging.
+
+PULL FROM GITHUB:
+
+***git pull repo_name branch_name***
+
+PUSH TO GITHUB:
+***git push repo_name branch_name***
+
+***git status***
+***git remote***
+***git remote -v***
+
+
+
+
+Describe the differences between forks, clones, and branches.  When would you
+use one instead of another?
+
+Forks, Clones, and Branches differ in that Branches are an extension of the
+same file with added changes, Clones and Forks have the same function except
+that Fork are a special feature exclusive to GitHub. I'd used forks to clone
+someone else's project to maintain credit to its original author and I'd used
+cloning every other situation.
+
+
+
+What is the benefit of having a copy of the last known state of the remote
+stored locally?
+
+I still don't know what the benefits are? It could be that it is accessible
+offline and one can accept, and modify updates at will. I'm really sure and
+I think I might need more time to process this benefits.
+
+***git mergetools***
+
+How would you collaborate without using Git or GitHub?  What would be easier,
+and what would be harder?
+
+I'd probably create a similar system but instead of using GitHub I'll probably
+use a simpler cloud based system like dropbox or something similar. It'd be
+difficult to maintain and keep up to date with so many changes and let's not
+even talk about collaborating on multiple projects with many collaborators.
+
+
+
+When would you want to make changes in a separate branch rather than directly in
+master?  What benefits does each approach have?
+
+    Fill in your answer here
