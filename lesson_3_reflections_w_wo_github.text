@@ -59,4 +59,6 @@ even talk about collaborating on multiple projects with many collaborators.
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+Changes could be made on a separate branch when the need to collaborate with
+other people calls for interacting and agreeing on changes before commits are
+added to any project.
